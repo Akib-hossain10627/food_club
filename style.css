@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-sub {
+    text-align: center;
+}
+
+.btn {
+
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+
+#first {
+    height: 615px;
+    background-image: linear-gradient(0deg,
+            rgb(9, 9, 9) 3.482%,
+            rgba(16, 16, 16, 0) 101.632%),
+        url("/pictures/hero-bg.png");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first .first-content {
+    width: 685px;
+
+}
+
+#first .first-content .subtitle {
+
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.60;
+    margin-bottom: 10px;
+}
+
+#first .first-content .title {
+
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#first .first-content .description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+
+}
+
+
+#card-box {
+    width: 884px;
+    margin: 100px auto;
+}
+
+
+#card-box .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    font-family: Work Sans;
+}
+
+.card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card .img-box {
+    width: 250px;
+}
+
+.card .img-box img {
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+.card .shop {
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+
+}
+
+.card .para {
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+
+}
+
+.banner-info {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    background: rgba(116, 112, 112, 0.2);
+    gap: 12px;
+
+}
+
+.banner-img {
+    height: 335px;
+    width: 0 auto;
+}
+
+.banner-subtitle {
+    margin-top: 54px;
+    width: 539px;
+    height: 85px;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.banner-title {
+    margin-bottom: 16px;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.banner-text {
+    margin: 24px 0px;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(116, 112, 112, 0.2);
+    border-top: 1px solid rgba(116, 112, 112, 0.2);
+    opacity: 0.7;
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%, rgb(0, 106, 255) 104.264%);
+    box-shadow: 0 2px 5px rgba(226, 222, 222, 0.2);
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+#box {
+    width: 884px;
+    margin: 150px auto;
+}
+
+.box-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-card .box-img {
+    width: 250px;
+}
+
+.box-card .box-img img {
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+.box-card .box-shop {
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+
+}
+
+.box-card .box-para {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 56px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#social {
+    height: 615px;
+    background: url(pictures/social-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-subtitle {
+    width: 805px;
+    margin: 24px 0px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-items: center;
+}
+
+.social-title {
+    margin-bottom: 48px;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    gap: 24;
+    padding: 0px;
+
+}
+
+.social-text {
+    margin-bottom: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(116, 112, 112, 0.2);
+    border-top: 1px solid rgba(116, 112, 112, 0.2);
+    opacity: 0.5;
+}
